@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Столовая МАДИ</title>
+    <title>Тендеры и поставщики</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -26,203 +26,120 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
 
 <body>
 
-    <div id="wrapper">
+<div id="wrapper">
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Столовая МАДИ</a>
-            </div>
-            <!-- Top Menu Items -->
-            <ul class="nav navbar-right top-nav">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Тендеры и поставщики</a>
+        </div>
+        <!-- Top Menu Items -->
+        <ul class="nav navbar-right top-nav">
 
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Белла Аветисовна<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Андрей Дворцов<b class="caret"></b></a>
+                <ul class="dropdown-menu">
 
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Выход</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav side-nav">
+                <li class="active">
+                    <a href="#">
+                        Поставщики
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:" data-toggle="collapse" data-target="#providers">
+                        Тендеры
+                        <i class="fa fa-fw fa-caret-down"></i>
+                    </a>
+                    <ul id="providers" class="collapse">
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Выход</a>
+                            <a href="#">
+                                Садовое кольцо
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Бульварное кольцо
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Школы
+                            </a>
                         </li>
                     </ul>
                 </li>
+                <li>
+                    <a href="#">
+                        Расчеты
+                    </a>
+                </li>
+                <!--li>
+                    <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+                </li-->
             </ul>
-            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav side-nav">
-                    <li class="active">
-                        <a href="javascript:" data-toggle="collapse" data-target="#arrivals">
-                            Все заезды
-                            <i class="fa fa-fw fa-caret-down"></i>
-                        </a>
-                        <ul id="arrivals" class="collapse">
-                            <li>
-                                <a href="javascript:" data-toggle="collapse" data-target="#arrivals-2015">
-                                    2015 год
-                                    <i class="fa fa-fw fa-caret-down"></i>
-                                </a>
-                                <ul id="arrivals-2015" class="collapse">
-                                    <li>
-                                        <a href="#">Заезд 4</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Заезд 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Заезд 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Заезд 1</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="javascript:" data-toggle="collapse" data-target="#arrivals-2014">
-                                    2014 год
-                                    <i class="fa fa-fw fa-caret-down"></i>
-                                </a>
-                                <ul id="arrivals-2014" class="collapse">
-                                    <li>
-                                        <a href="#">Заезд 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Заезд 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Заезд 1</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <!--li>
-                        <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
-                    </li-->
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </nav>
-
-        <div id="page-wrapper">
-
-            <div class="container-fluid">
-
-                <!-- Page Heading -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="page-header">
-                            Заезд 1 <small>от 01 февраля 2015г.</small>
-                        </h1>
-
-                    </div>
-                </div>
-                <!-- /.row -->
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2>Приходы</h2>
-                        <div class="table-responsive">
-                            <table class="table table-bordered table-hover">
-                                <thead>
-                                <tr>
-                                    <th rowspan="2"></th>
-                                    <th rowspan="2">Наименование</th>
-                                    <th colspan="3">Приход 1</th>
-                                    <th colspan="3">Приход 2</th>
-                                </tr>
-                                <tr>
-                                    <th>Цена</th>
-                                    <th>Количество</th>
-                                    <th>Стоимость</th>
-                                    <th>Цена</th>
-                                    <th>Количество</th>
-                                    <th>Стоимость</th>
-
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td><input type="checkbox"/></td>
-                                    <td>Сыр</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"/></td>
-                                    <td>Сыр</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"/></td>
-                                    <td>Сыр</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"/></td>
-                                    <td>Сыр</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                    <td>12</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.row -->
-
-            </div>
-            <!-- /.container-fluid -->
-
         </div>
-        <!-- /#page-wrapper -->
+        <!-- /.navbar-collapse -->
+    </nav>
+
+    <div id="page-wrapper">
+
+        <div class="container-fluid">
+
+            <!-- Page Heading -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">
+                        Поставщики
+                    </h1>
+                </div>
+            </div>
+            <!-- /.row -->
+
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
 
     </div>
-    <!-- /#wrapper -->
+    <!-- /#page-wrapper -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+</div>
+<!-- /#wrapper -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
 
-    <!-- Morris Charts JavaScript -->
-    <script src="js/plugins/morris/raphael.min.js"></script>
-    <script src="js/plugins/morris/morris.min.js"></script>
-    <script src="js/plugins/morris/morris-data.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Morris Charts JavaScript -->
+<script src="js/plugins/morris/raphael.min.js"></script>
+<script src="js/plugins/morris/morris.min.js"></script>
+<script src="js/plugins/morris/morris-data.js"></script>
 
 </body>
 
 </html>
-          
